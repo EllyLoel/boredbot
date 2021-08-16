@@ -1,0 +1,57 @@
+body {
+    /* uigradients.com */
+    background: linear-gradient(to bottom, #99f2c8, #458f7b);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    background-color: white;
+    padding: 1.5rem 1.75rem;
+    border-radius: 1rem;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+h4 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.125);
+    padding: 0.5em 1em;
+    border-radius: 0.35em;
+    max-width: 50vw;
+    text-align: center;
+}
+
+button {
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    background: linear-gradient(to top, #ba3223, #ED213A);
+    border: 5px solid white;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 300ms ease-out;
+    margin-bottom: 2rem;
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.1)
+}
